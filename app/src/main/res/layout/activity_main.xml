@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/forest"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="133dp"
+        android:layout_height="67dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:hint="show data"
+
+
+        android:textColor="#000000"
+        android:textSize="20dp"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="183dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        android:layout_marginBottom="360dp"
+        android:background="#FA0303"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="239dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="216dp"
+        android:ems="10"
+        android:hint="Enter Your  City"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="25dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.604"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:layout_width="280dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="104dp"
+        android:text="Get Weather"
+        android:gravity="center"
+        android:textStyle="bold"
+
+        android:fontFamily="cursive"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="40dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/editText1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="63dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
